@@ -1,11 +1,11 @@
-#Implementation of IEEE 754 FP Adder on FPGA Board
-##URL:http://ieeexplore.ieee.org/document/564761/
-###Instructions
+# Implementation of IEEE 754 FP Adder on FPGA Board
+## URL:http://ieeexplore.ieee.org/document/564761/
+### Instructions
 Verilog code is present in the 'src' folder. To simulate the code add it the Xilinx ISE Design Suite project using the 'Add copy of source'  option and then synthesize the code using the 'Synthsize-XST' option under the processes tab.
 
 Once the Synthesize process is completed, switch to simulation and run the 'Behavorial Check Syntax' and execute the 'Simulate Behavorial Model' to see the outputs of the `fp_adder_testbench`.
 
-###Modifying and Adding the test cases###
+### Modifying and Adding the test cases
 Additional test cases can be added to the test bench by more instances of the test case blocks:
 ``` //Test block <N>
 N1= 32'b01000001110010100000000000000000;
